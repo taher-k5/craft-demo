@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: blogs
+name: Blogs
+propagationMethod: all
+siteSettings:
+  423d37d6-7c8f-40b6-9631-4c335f47efed: # Craft demo
+    enabledByDefault: true
+    hasUrls: true
+    template: blogs/_entry
+    uriFormat: 'blogs/{slug}'
+type: channel

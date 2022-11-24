@@ -1,0 +1,48 @@
+dateModified: 1669317064
+email:
+  fromEmail: kathiriyataher16@gmail.com
+  fromName: 'Craft demo'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: true
+    name: Images
+    settings:
+      path: images
+    type: craft\fs\Local
+    url: '@web/images'
+meta:
+  __names__:
+    1ecd3d55-312c-4938-b20e-50854a45d8a9: 'Popup Image' # Popup Image
+    4d42efb4-701e-42d5-8495-eb4a0f7f0fbf: Heading # Heading
+    4fc8f076-bc6f-4823-ace2-15115b1824ab: Images # Images
+    14b55430-d32a-4272-912c-76b2faafe6a6: Country # Country
+    82bec9fd-f166-4176-9f60-af0b9b098db5: Designation # Designation
+    0352d442-2dcf-42ec-92c6-39a3c6df93d7: 'Craft demo' # Craft demo
+    423d37d6-7c8f-40b6-9631-4c335f47efed: 'Craft demo' # Craft demo
+    1287de5e-24aa-49d3-9da2-0aef8a4d7b99: Default # Default
+    a647e025-4229-4ca3-87f2-9e58f43dbf34: Common # Common
+    b9f175f8-a4e6-456f-bc90-8a10291d3782: Blog # Blog
+    bde721cc-efcf-4a13-b9b1-139147fe75bc: Blogs # Blogs
+    db3f23c3-b8fc-4b52-a266-104c42fae4d4: 'Blogs Category''s' # Blogs Category's
+    dd9130b3-b9dd-4d0a-8a47-4c007492ec95: Text # Text
+    e453e60d-dd8f-4920-97b2-5418e05af41f: Image # Image
+    efff6f15-1197-46ea-ad67-947c87fe75a8: Teachers # Teachers
+    fcec148f-5f3d-467c-b7ef-16a5861868b8: Default # Default
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: 'Craft demo'
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
