@@ -31,18 +31,6 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 51581afd-89f1-4bd6-b3bf-e7d5bbb0795b # Blogs
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 606b3b19-75e5-45d5-a793-dfbfed5cfaf1
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             fieldUid: 8f9bc910-3e96-4bb7-ac37-9051b9a0b5ea # Limit
             instructions: null
             label: null
@@ -50,6 +38,18 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 03e7c1b3-abbc-44df-89a8-7eda77fb8c63
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 51581afd-89f1-4bd6-b3bf-e7d5bbb0795b # Blogs
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 606b3b19-75e5-45d5-a793-dfbfed5cfaf1
             userCondition: null
             warning: null
             width: 100

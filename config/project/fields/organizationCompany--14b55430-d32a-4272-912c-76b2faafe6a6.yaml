@@ -1,9 +1,9 @@
 columnSuffix: rvpbjqtw
 contentColumnType: text
 fieldGroup: a647e025-4229-4ca3-87f2-9e58f43dbf34 # Common
-handle: country
+handle: organizationCompany
 instructions: null
-name: Country
+name: 'Organization / company'
 searchable: false
 settings:
   byteLimit: null
