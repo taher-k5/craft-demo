@@ -53,7 +53,19 @@ fieldLayouts:
             uid: 8086ae45-8e49-4560-8717-fcddcb0c274f
             userCondition: null
             warning: null
-            width: 100
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 719f8e93-bac3-40cd-90f6-77a000e780fb # Reading Time
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ffb49df4-1529-42ff-8a1e-91fbdab341d8
+            userCondition: null
+            warning: null
+            width: 50
           -
             elementCondition: null
             fieldUid: dd9130b3-b9dd-4d0a-8a47-4c007492ec95 # Text

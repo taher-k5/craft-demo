@@ -1,0 +1,86 @@
+field: 2a15b44c-3b3c-4b61-ac1a-d380d30bc369 # pageBuilder
+fieldLayouts:
+  715791ab-f27d-44c6-953e-c8272d6c5eda:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 475a6343-f7c5-450b-8a9b-35d72d714c93 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d89c16f0-90a3-4859-86bf-b825b6c1c220
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8bdb42f8-9f92-4046-ac40-e0bd67c998ce # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 26851040-9402-4589-8339-d6f492cd8381
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 16f59287-ece5-4317-85f1-73f1dd78e463
+        userCondition: null
+fields:
+  8bdb42f8-9f92-4046-ac40-e0bd67c998ce: # Text
+    columnSuffix: knivcbpz
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  475a6343-f7c5-450b-8a9b-35d72d714c93: # Heading
+    columnSuffix: vosgekkd
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: contentBlock
+name: 'Content Block'
+sortOrder: 1

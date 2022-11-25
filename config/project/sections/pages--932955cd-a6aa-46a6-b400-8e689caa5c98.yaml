@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: pages
+name: Pages
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  423d37d6-7c8f-40b6-9631-4c335f47efed: # Craft demo
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages/index
+    uriFormat: '{parent.uri}/{slug}'
+type: channel

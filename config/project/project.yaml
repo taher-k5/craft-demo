@@ -1,4 +1,4 @@
-dateModified: 1669317064
+dateModified: 1669396634
 email:
   fromEmail: kathiriyataher16@gmail.com
   fromName: 'Craft demo'
@@ -14,16 +14,31 @@ fs:
 meta:
   __names__:
     1ecd3d55-312c-4938-b20e-50854a45d8a9: 'Popup Image' # Popup Image
+    2a15b44c-3b3c-4b61-ac1a-d380d30bc369: pageBuilder # pageBuilder
     4d42efb4-701e-42d5-8495-eb4a0f7f0fbf: Heading # Heading
     4fc8f076-bc6f-4823-ace2-15115b1824ab: Images # Images
+    8bdb42f8-9f92-4046-ac40-e0bd67c998ce: Text # Text
+    8f9bc910-3e96-4bb7-ac37-9051b9a0b5ea: Limit # Limit
+    12d3f315-4f77-4974-94c2-3a0b75d8968d: Text # Text
     14b55430-d32a-4272-912c-76b2faafe6a6: Country # Country
+    16d687bf-c574-4fee-990f-d784759ad11e: Default # Default
+    46b51358-7056-4ebb-8ed1-b35b22854cc9: 'Content Block' # Content Block
     82bec9fd-f166-4176-9f60-af0b9b098db5: Designation # Designation
     0352d442-2dcf-42ec-92c6-39a3c6df93d7: 'Craft demo' # Craft demo
     423d37d6-7c8f-40b6-9631-4c335f47efed: 'Craft demo' # Craft demo
+    475a6343-f7c5-450b-8a9b-35d72d714c93: Heading # Heading
+    719f8e93-bac3-40cd-90f6-77a000e780fb: 'Reading Time' # Reading Time
     1287de5e-24aa-49d3-9da2-0aef8a4d7b99: Default # Default
+    3800fede-6d01-40f3-b54a-954e4bcb1a99: Team
+    51581afd-89f1-4bd6-b3bf-e7d5bbb0795b: Blogs # Blogs
+    932955cd-a6aa-46a6-b400-8e689caa5c98: Pages # Pages
+    52500692-79b4-4828-b1e7-af37449b9b85: Blogs # Blogs
+    a00575df-8dbc-4cb7-b355-9571cc3489b7: Heading # Heading
     a647e025-4229-4ca3-87f2-9e58f43dbf34: Common # Common
     b9f175f8-a4e6-456f-bc90-8a10291d3782: Blog # Blog
     bde721cc-efcf-4a13-b9b1-139147fe75bc: Blogs # Blogs
+    c79e5a0d-af31-4e2f-92ba-9efe60504821: Heading
+    cf509d96-20ed-4722-a11d-91abe9d88145: Team
     db3f23c3-b8fc-4b52-a266-104c42fae4d4: 'Blogs Category''s' # Blogs Category's
     dd9130b3-b9dd-4d0a-8a47-4c007492ec95: Text # Text
     e453e60d-dd8f-4920-97b2-5418e05af41f: Image # Image
@@ -34,8 +49,12 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
+  seo:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.2.0
 system:
-  edition: solo
+  edition: pro
   live: true
   name: 'Craft demo'
   schemaVersion: 4.0.0.9

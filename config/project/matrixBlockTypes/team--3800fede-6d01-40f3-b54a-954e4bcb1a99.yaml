@@ -1,0 +1,93 @@
+field: 2a15b44c-3b3c-4b61-ac1a-d380d30bc369 # pageBuilder
+fieldLayouts:
+  69929e22-9453-46aa-a247-87b2343e8c9f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: c79e5a0d-af31-4e2f-92ba-9efe60504821
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 02aabd5a-33c1-4e2d-8126-0f39299b6718
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cf509d96-20ed-4722-a11d-91abe9d88145
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0a66973c-d340-4b4e-8a17-a8cdfc2ff4b4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 718d75a2-2f30-43df-a866-7984cd01b3de
+        userCondition: null
+fields:
+  c79e5a0d-af31-4e2f-92ba-9efe60504821:
+    columnSuffix: pqhlzpky
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  cf509d96-20ed-4722-a11d-91abe9d88145:
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: team
+    instructions: null
+    name: Team
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: false
+      source: null
+      sources:
+        - 'section:efff6f15-1197-46ea-ad67-947c87fe75a8' # Teachers
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: team
+name: Team
+sortOrder: 3

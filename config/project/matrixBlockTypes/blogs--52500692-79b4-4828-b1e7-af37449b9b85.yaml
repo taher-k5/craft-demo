@@ -1,0 +1,166 @@
+field: 2a15b44c-3b3c-4b61-ac1a-d380d30bc369 # pageBuilder
+fieldLayouts:
+  41448e99-7678-4dd4-a298-d3bba99055b3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a00575df-8dbc-4cb7-b355-9571cc3489b7 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b50c414c-2079-4c21-96cc-ac992803d993
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 12d3f315-4f77-4974-94c2-3a0b75d8968d # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bf37e28a-f450-4c3d-88ca-4bc98f326b7c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 51581afd-89f1-4bd6-b3bf-e7d5bbb0795b # Blogs
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 606b3b19-75e5-45d5-a793-dfbfed5cfaf1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8f9bc910-3e96-4bb7-ac37-9051b9a0b5ea # Limit
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 03e7c1b3-abbc-44df-89a8-7eda77fb8c63
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d841f92a-c400-4064-9587-0a6b762f0a61
+        userCondition: null
+fields:
+  8f9bc910-3e96-4bb7-ac37-9051b9a0b5ea: # Limit
+    columnSuffix: nwhxylcv
+    contentColumnType: smallint(2)
+    fieldGroup: null
+    handle: limit
+    instructions: null
+    name: Limit
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: null
+      max: 10
+      min: 2
+      prefix: null
+      previewCurrency: null
+      previewFormat: decimal
+      size: null
+      suffix: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
+  12d3f315-4f77-4974-94c2-3a0b75d8968d: # Text
+    columnSuffix: pjmzqkgh
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  51581afd-89f1-4bd6-b3bf-e7d5bbb0795b: # Blogs
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: blogs
+    instructions: null
+    name: Blogs
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:bde721cc-efcf-4a13-b9b1-139147fe75bc' # Blogs
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  a00575df-8dbc-4cb7-b355-9571cc3489b7: # Heading
+    columnSuffix: xxpuaycg
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: blogs
+name: Blogs
+sortOrder: 2

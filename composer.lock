@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb8d820aed3512240ebd4c8149fa351e",
+    "content-hash": "9fe3aa72cc89f59d5fddfdbb85b27345",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -1510,6 +1510,60 @@
             "time": "2022-02-21T09:13:59+00:00"
         },
         {
+            "name": "ether/seo",
+            "version": "v4.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ethercreative/seo.git",
+                "reference": "27e5bef4ffd18462b8d954e7611c9a8ecaca922e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ethercreative/seo/zipball/27e5bef4ffd18462b8d954e7611c9a8ecaca922e",
+                "reference": "27e5bef4ffd18462b8d954e7611c9a8ecaca922e",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "craftcms/ecs": "dev-main",
+                "craftcms/rector": "dev-main",
+                "phpstan/phpstan": "^1.6"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "handle": "seo",
+                "name": "SEO",
+                "developer": "Ether Creative",
+                "developerUrl": "https://ethercreative.co.uk",
+                "class": "ether\\seo\\Seo"
+            },
+            "autoload": {
+                "psr-4": {
+                    "ether\\seo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "SEO utilities including a unique field type, sitemap, & redirect manager",
+            "support": {
+                "docs": "https://github.com/ethercreative/seo/blob/v3/README.md",
+                "issues": "https://github.com/ethercreative/seo",
+                "source": "https://github.com/ethercreative/seo/tree/v4.0.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/tam",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-06-08T12:03:39+00:00"
+        },
+        {
             "name": "ezyang/htmlpurifier",
             "version": "v4.16.0",
             "source": {
@@ -2533,6 +2587,117 @@
                 }
             ],
             "time": "2022-07-24T11:55:47+00:00"
+        },
+        {
+            "name": "mrclay/minify",
+            "version": "2.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrclay/minify.git",
+                "reference": "1928e89208d28e91427b2f13b67acdbd8cd01ac9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrclay/minify/zipball/1928e89208d28e91427b2f13b67acdbd8cd01ac9",
+                "reference": "1928e89208d28e91427b2f13b67acdbd8cd01ac9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "php": ">=5.2.1"
+            },
+            "require-dev": {
+                "tubalmartin/cssmin": "~2.4.8"
+            },
+            "suggest": {
+                "tubalmartin/cssmin": "Support minify with CSSMin (YUI PHP port)"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "min/lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Stephen Clay",
+                    "email": "steve@mrclay.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Minify is a PHP5 app that helps you follow several rules for client-side performance. It combines multiple CSS or Javascript files, removes unnecessary whitespace and comments, and serves them with gzip encoding and optimal client-side cache headers",
+            "homepage": "http://code.google.com/p/minify/",
+            "support": {
+                "email": "minify@googlegroups.com",
+                "issues": "http://code.google.com/p/minify/issues/list",
+                "source": "https://github.com/mrclay/minify/tree/2.x",
+                "wiki": "http://code.google.com/p/minify/w/list"
+            },
+            "time": "2017-11-03T21:04:01+00:00"
+        },
+        {
+            "name": "nystudio107/craft-minify",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nystudio107/craft-minify.git",
+                "reference": "9f4b376dfb610f0e6c5f3a3d5bcc83114c0e2db0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nystudio107/craft-minify/zipball/9f4b376dfb610f0e6c5f3a3d5bcc83114c0e2db0",
+                "reference": "9f4b376dfb610f0e6c5f3a3d5bcc83114c0e2db0",
+                "shasum": ""
+            },
+            "require": {
+                "mrclay/minify": "^2.3.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Minify",
+                "handle": "minify",
+                "schemaVersion": "1.0.0",
+                "hasSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/nystudio107/craft3-minify/CHANGELOG.md",
+                "class": "nystudio107\\minify\\Minify",
+                "components": {
+                    "minify": "nystudio107\\minify\\services\\MinifyService"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "nystudio107\\minify\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "nystudio107",
+                    "homepage": "https://nystudio107.com/"
+                }
+            ],
+            "description": "A simple plugin that allows you to minify blocks of HTML, CSS, and JS inline in Craft CMS templates.",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "minify"
+            ],
+            "support": {
+                "docs": "https://github.com/nystudio107/craft3-minify/blob/master/README.md",
+                "issues": "https://github.com/nystudio107/craft3-minify/issues",
+                "source": "https://github.com/nystudio107/craft-minify/tree/1.2.2"
+            },
+            "time": "2017-02-17T23:27:08+00:00"
         },
         {
             "name": "paragonie/random_compat",
